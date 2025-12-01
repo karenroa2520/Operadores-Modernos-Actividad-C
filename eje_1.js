@@ -16,15 +16,18 @@ function procesarPedido(pedido, ...extras) { //creamos una funcion llamada proce
     return pedidoConsolidado;
 }
 
-// uso
+// uso y objeto que vamos a indicar su clave y valor 
 const pedido = {
     cliente: "Ave Maria",
     producto: "Laptop",
     cantidad: 2
 };
 
+const resultado = procesarPedido(pedido, "envio_gratis", "garantia_extendida");
+console.log(resultado);
+
 //mostramos el mensaje completo
-console.log(pedido)
+// console.log(pedido);
 
 
 
