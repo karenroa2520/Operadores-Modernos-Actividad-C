@@ -23,6 +23,7 @@ const pedido = {
     cantidad: 2
 };
 
+console.log(pedido)
 
 
 
