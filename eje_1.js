@@ -18,7 +18,7 @@ function procesarPedido(pedido, ...extras) {
 
 // Ejemplo de uso
 const pedido = {
-    cliente: "Juan Pérez",
+    cliente: "Ave Maria",
     producto: "Laptop",
     cantidad: 2
 };
