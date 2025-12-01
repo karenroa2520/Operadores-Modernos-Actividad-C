@@ -1,7 +1,7 @@
-const promt = require("prompt-sync")();
+// const promt = require("prompt-sync")();
 
-
-function procesarPedido(pedido, ...extras) {
+// usamos los parametros rest
+function procesarPedido(pedido, ...extras) { //creamos una funcion llamada procesarPedido
     // Destructuración del objeto pedido
     const { cliente, producto, cantidad } = pedido;
     
@@ -16,13 +16,14 @@ function procesarPedido(pedido, ...extras) {
     return pedidoConsolidado;
 }
 
-// Ejemplo de uso
+// uso
 const pedido = {
     cliente: "Ave Maria",
     producto: "Laptop",
     cantidad: 2
 };
 
+//mostramos el mensaje completo
 console.log(pedido)
 
 
